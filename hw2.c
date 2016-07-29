@@ -37,7 +37,7 @@ void print(double *a, int m, int n) {
 void jacobi(double* a, int n, double *s, double *u, double *v){
 	int i = 0;
 	int j = 0;
-	double ep = 1e-15;
+	double ep = 1e-16;
 	double comp;
 	int count = 1;
 
